@@ -5,7 +5,7 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   site: "https://n-seine.github.io",
-  base: "docs-oplibris",
+  base: "/docs-oplibris",
   integrations: [
     starlight({
       title: "My Docs",
