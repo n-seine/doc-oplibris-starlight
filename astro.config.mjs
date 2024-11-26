@@ -8,11 +8,18 @@ export default defineConfig({
   base: "/docs-oplibris",
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "Documentation d'OPlibris",
       social: {
         github: "https://github.com/withastro/starlight",
       },
-      defaultLocale: "fr",
+      defaultLocale: "root",
+      locales: {
+        root: {
+          label: "Français",
+          lang: "fr",
+          dir: "ltr",
+        },
+      },
     }),
   ],
 });
