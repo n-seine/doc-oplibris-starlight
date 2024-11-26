@@ -6,7 +6,7 @@ import starlightImageZoom from "starlight-image-zoom";
 // https://astro.build/config
 export default defineConfig({
   site: "https://n-seine.github.io",
-  base: "/docs-oplibris",
+  base: "doc-oplibris-starlight/",
   integrations: [
     starlight({
       title: "Documentation d'OPlibris",
