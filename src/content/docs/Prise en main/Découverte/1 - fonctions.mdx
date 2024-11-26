@@ -1,0 +1,85 @@
+---
+title: Fonctions principales d'OPlibris
+description: Présentation des principales fonctions d'OPlibris, ERP pour les métiers de l'édition
+sidebar: { order: 1 }
+---
+
+import { Tabs, TabItem } from "@astrojs/starlight/components";
+import { YouTube } from "astro-embed";
+
+## Tour d'horizon de OP libris
+
+### Texte d'intro
+
+Reprendre celui des plaquettes ? Origines du projet, constat, objectifs ?
+
+Existe-t-il un texte de définition synthétique ? A écrire ?
+
+## Qu'est-ce qu'un ERP ?
+
+<YouTube id="71XB83t8q5U" />
+
+Fondamentalement, OPlibris est un logiciel appartenant à la famille des ERP et spécifiquement
+adapté au métier d'éditeur. Il est donc recommandé de se familiariser avec la logique
+et le fonctionnement d'un ERP/CRM pour utiliser pleinement OPlibris.
+
+### Définition d'un ERP
+
+Un ERP (pour Enterprise Ressource Planning, souvent traduit en français par Progiciel de gestion intégré) est un système d'information intégré qui permet de gérer l'ensemble des processus d'une entreprise. Il regroupe différentes fonctions telles que la comptabilité, la gestion des stocks, la production, les ressources humaines, etc.
+
+L'ERP offre une vision globale et en temps réel de l'activité de l'entreprise. Il automatise et optimise les tâches, permettant ainsi de gagner en productivité et en performance. Il permet de centraliser l'ensemble des données de l'entreprise dans une même base et de les lier entre elles, de les exploiter et de les analyser.
+
+Certains ERP, commme OPlibris, se doublent d'un volet CRM (pour Customers Relations Management ou en français Gestion de la relation avec la clientèle). OPlibris intègre cet aspect CRM afin de simplifier vos relations avec vos clients et différents partenaires, que vous soyez directement en contact avec eux (vente directe, salons) ou non (médiathèques, libraires informés par votre diffuseur), tant sur le plan de la promotion (contacts presse, mailings, gestion des rendez-vous) que de la commercialisation (commandes, facturation, suivi et analyse des ventes, gestion des dépôts)
+
+Ainsi OPlibris permet d'associer des publications à des contributeurs, de facturer ces publications et suivre les ventes, de gérer les redditions de droits d'auteurs correspondantes puis d'enregistrer ces mêmes droits d'auteurs en comptabilité.
+
+### Les principales fonctions de l'outil de gestion OPlibris
+
+La console éditeur (?????? Terminologie ?????) est structurée autour de trois grands espaces regroupant les modules et fonctionnalités de l'outil en suivant la logique quotidienne d'une maison d'édition.
+
+- Pour **ANTICIPER** la naissance d’un titre, un espace **« Bac à sable »** permet d’esquisser et de préparer le projet dans ses dimensions techniques, commerciales, environnementales, de calculer sa date de parution, son tirage, son prix de vente optimal, son inscription dans le programme éditorial global.
+- Une fois le livre devenu réalité et intégré dans le catalogue, le **« Cœur »** d’OPlibris propose toutes les fonctionnalités pour mieux le **GÉRER** durant toute son existence, pour l’intégrer à la dimension globale de la maison d’édition, pour corréler les informations concernant les auteurs, les fournisseurs, les distributeurs, les libraires, les clients, les ventes directes, les ventes indirectes, les dépôts, bref, pour piloter le plus finement possible la vie de son entreprise éditoriale, pour gagner du temps à consacrer à ses activités créatives.
+- Enfin, pour mettre en valeur vos titres, faire connaître votre maison, mieux communiquer avec vos auteurs, avec les libraires, avec les lecteurs, il existe un troisième espace, celui tourné vers l’extérieur, la **« Fenêtre »**, dont la fonction première est de **PROMOUVOIR**.
+
+![Les trois blocs de fonctions d'OPlibris : anticiper, gérer, promouvoir](../../../../assets/images/fonctions-oplibris-anticiper-gérer-promouvoir.png)
+
+### Résumé des fonctions d'OPlibris
+
+<Tabs>
+  <TabItem label="Fonctionnalités">
+    Gestion du catalogue <br />
+    Facturation <br />
+    Suivi des achats et fournitures <br />
+    Vente directe <br />
+    Suivi des dépôts <br />
+    Banque et comptabilité
+  </TabItem>
+  <TabItem label="Fonctionnalités futures  ">
+    Reddition des droits d'auteurs <br />
+    Gestion du dépôt légal <br />
+    Calculateur de bilan carbone <br />
+    Console d'échange avec les auteurs et points de vente
+  </TabItem>
+  <TabItem label="Non géré par OPlibris ">
+    Travail sur les textes <br />
+    PAO <br />
+    Client mail <br />
+  </TabItem>
+</Tabs>
+
+## L'architecture d'OPlibris
+
+Ces différents modules relient et utilisent différentes données liées au fonctionnement de votre maison d'édition que vous aurez renseignées au préalable. Ces données cruciales sont regroupées en quatre groupes, quatre "briques" de base sur lesquelles repose l'ensemble de l'architecture en modules d'OPlibris.
+
+- La brique "Maison d'édition" qui englobe à la fois les informations structurelles et le mode de fonctionnement de la maison : nom, Gencod, ligne éditoriale, mode de diffusion/distribution, collections, etc.
+- &#x20;La brique "Tiers" qui regroupe l'ensemble des acteurs extérieurs avec lesquels votre maison d'édition est amenée à travailler. On y trouve à la fois les clients (particuliers, libraires), les fournisseurs (imprimeur, prestataires) et les contributeurs (auteurs, traducteurs ou tout contributeur à un livre rémunéré en droit d'auteur (???????????????? A VERIFIER???????????)
+- La brique "Produits" qui regroupe tout ce que vend votre maison d'édition. Ce sont soit des "publications (livres papiers ou numériques), la fiche "autres produits" (produits dérivés) et la fiche "prestations" (formation, animation)
+- La brique "Contrats" qui permet de paramétrer les relations entre les autres briques et leur permet de communiquer. Ce sont par exemple les contrats d'édition, ????????????les conditions commerciales ????????????)
+
+  C'est dans ce niveau fondamental simple que viennent piocher les différents modules et fonctionnalités présentes et à venir.
+
+Il faut souligner combien le confort et la performance d'utilisation d'OPlibris au quotidien reposent sur la rigueur avec laquelle on aura initialement renseigné ces briques et sur le soin accordé à leur mise à jour aussi souvent que nécessaire.
+
+C'est pourquoi vous trouverez dans la section Prise en main des explications détaillées pour remplir ces différents éléments, préalable nécessaire à toute utilisation d'OPlibris
+
+??????FAIRE SCHEMA ? ?????
