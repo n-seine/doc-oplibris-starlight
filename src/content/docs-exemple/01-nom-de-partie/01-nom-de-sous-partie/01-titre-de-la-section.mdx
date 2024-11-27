@@ -1,28 +1,8 @@
-# Documentation d'OPlibris
-
-[![Créé avec Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
-
-## 🧞 Commandes
-
-Ces commandes doivent être lancées dans un terminal depuis le dossier racine du projet
-
-| Commande      | Action                                             |
-| :------------ | :------------------------------------------------- |
-| `npm install` | Installe les dépendances                           |
-| `npm run dev` | Démarre le serveur de dev local à `localhost:4321` |
-
-## Structure du projet
-
-Les pages de documentation proprement dites sont dans le dossier `src/content/docs`.
-
-Ce dossier est organisées en parties et sous parties numérotées pour maintenir un ordre logique dans la barre de navigation de gauche (table des matières).
-
-Au sein de chaque dossier de sous-partie se trouve un dossier `images` contenant les images incluses dans les fichiers d'images présents dans la section.
-
-Si vous ajoutez un sous-dossier ou une page de documentation, veillez à :
-
-- Inclure ce dossier `images` si nécessaire afin de maintenir la structure du projet
-- Ne pas modifier les noms de fichiers existants (risque de modification de l'URL et de liens cassés) mais d'intercaler vos ajouts à l'aide d'une numérotation mixte (par ex. `03a-validation-de-facture`)
+---
+title: Ceci est une page de démonstration
+description: Présentation des principales fonctions d'OPlibris, ERP pour les métiers de l'édition
+draft: true
+---
 
 ## Les sections de la page
 
@@ -131,3 +111,16 @@ Le projet utilise [astro-embed](https://github.com/withastro/docs) pour intégre
 
   1. Importer le composant : `import { Vimeo } from 'astro-embed';`
   2. L'utiliser à l'endroit souhaité en passant en paramètre l'ID de la vidéo ou son URL complet : `<Vimeo id="32001208" />` ou `<Vimeo id="https://vimeo.com/32001208" />`
+
+## Organisation des pages de documentation
+
+Les pages de documentation proprement dites sont dans le dossier `src/content/docs`.
+
+Ce dossier est organisées en parties et sous parties numérotées pour maintenir un ordre logique dans la barre de navigation de gauche (table des matières).
+
+Au sein de chaque dossier de sous-partie se trouve un dossier `images` contenant les images incluses dans les fichiers d'images présents dans la section.
+
+Si vous ajoutez un sous-dossier ou une page de documentation, veillez à :
+
+- Inclure ce dossier `images` si nécessaire afin de maintenir la structure du projet
+- Ne pas modifier les noms de fichiers existants (risque de modification de l'URL et de liens cassés) mais d'intercaler vos ajouts à l'aide d'une numérotation mixte (par ex. `03a-validation-de-facture`)
