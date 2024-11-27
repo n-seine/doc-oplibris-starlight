@@ -14,6 +14,10 @@ export default defineConfig({
         // Relative path to your custom CSS file
         "./src/style/custom.css",
       ],
+      logo: {
+        src: "./src/assets/logo.png",
+        alt: "OPlibris",
+      },
       plugins: [starlightImageZoom()],
       social: {
         github: "https://github.com/withastro/starlight",
@@ -21,11 +25,37 @@ export default defineConfig({
       sidebar: [
         {
           label: "Prise en main",
-          autogenerate: { directory: "Prise en main" },
+          items: [
+            {
+              label: "Introduction",
+              link: "/prise-en-main/",
+            },
+            {
+              label: "Découvrir OPlibris",
+              autogenerate: { directory: "Prise en main/Découverte" },
+            },
+            {
+              label: "Configuration",
+              autogenerate: {
+                directory: "Prise en main/Installation et configuration",
+              },
+            },
+          ],
         },
         {
-          label: "Utilisation",
-          autogenerate: { directory: "Guides pas à pas" },
+          label: "Utiliser OPlibris au quotidien",
+          items: [
+            {
+              label: "Introduction",
+              link: "/guides-pas-à-pas/",
+            },
+            {
+              label: "Guides pas à pas",
+              autogenerate: {
+                directory: "Guides pas à pas/Gestion quotidienne",
+              },
+            },
+          ],
         },
       ],
       defaultLocale: "root",

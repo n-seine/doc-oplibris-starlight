@@ -1,36 +1,58 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-# template: splash
+title: Documentation d'OPlibris
+description: Apprenez à utiliser votre outil de gestion de maison d'édition
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Bienvenue dans le centre de documentation et de ressources. Vous y trouverez des guides, aides et conseils pour utiliser au mieux votre outil OPlibris
   image:
-    file: ../../assets/houston.webp
-#   actions:
-#     - text: Example Guide
-#       link: /guides/example/
-#       icon: right-arrow
-#     - text: Read the Starlight docs
-#       link: https://starlight.astro.build
-#       icon: external
-#       variant: minimal
+    alt: Le logo de OPlibris
+    file: ../../assets/images/arbre-oplibris2023.png
+  actions:
+    - text: Je découvre OPlibris
+      link: prise-en-main/
+      icon: right-arrow
+    - text: Documentation détaillée
+      link: guides-pas-a-pas
+      icon: external
+      variant: minimal
 ---
 
-import { Card, CardGrid } from "@astrojs/starlight/components";
+import { Card, CardGrid, LinkCard } from "@astrojs/starlight/components";
 
-## Next steps
+## Bien débuter
 
 <CardGrid stagger>
-  <Card title="Update content" icon="pencil">
-    Edit `src/content/docs/index.mdx` to see this page change.
+  <LinkCard
+    title="Premiers pas"
+    href="prise-en-main/découverte/1---fonctions/"
+    description="Un premiers tour d'horizon du fonctionnement et des possibilités qu'offre OPlibris"
+  ></LinkCard>
+  <LinkCard
+    title="Configuration d'OPlibris"
+    href="prise-en-main/installation-et-configuration/1---création-utilisateurs/"
+    description="Toutes les informations pour bien paramétrer votre outil avant de l'utiliser"
+  ></LinkCard>
+  <Card title="Documentation de Dolibarr" icon="document">
+    [L'ERP open-source](https://www.dolibarr.org/documentation-home.php) sur
+    lequel est bâti OPlibris.
   </Card>
-  <Card title="Add new content" icon="add-document">
-    Add Markdown or MDX files to `src/content/docs` to create new pages.
-  </Card>
-  <Card title="Configure your site" icon="setting">
-    Edit your `sidebar` and other config in `astro.config.mjs`.
-  </Card>
-  <Card title="Read the docs" icon="open-book">
-    Learn more in [the Starlight Docs](https://starlight.astro.build/).
+</CardGrid>
+
+## Utiliser OPlibris au quotidien
+
+<CardGrid stagger>
+  <LinkCard
+    title="Premiers pas"
+    href="prise-en-main/découverte/1---fonctions/"
+    description="Un premiers tour d'horizon du fonctionnement et des possibilités qu'offre OPlibris"
+  ></LinkCard>
+  <LinkCard
+    title="Configuration d'OPlibris"
+    href="prise-en-main/installation-et-configuration/1---création-utilisateurs/"
+    description="Toutes les informations pour bien paramétrer votre outil avant de l'utiliser"
+  ></LinkCard>
+  <Card title="Documentation de Dolibarr" icon="document">
+    [L'ERP open-source](https://www.dolibarr.org/documentation-home.php) sur
+    lequel est bâti OPlibris.
   </Card>
 </CardGrid>
