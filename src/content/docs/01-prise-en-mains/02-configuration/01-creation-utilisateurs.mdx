@@ -1,13 +1,16 @@
 ---
-title: Facturer ses ventes
+title: Comptes et utilisateurs
 description: Comment créer des utilisateurs dans OPlibris et les paramétrer
 sidebar: { order: 1 }
 ---
 
-import { Tabs, TabItem } from "@astrojs/starlight/components";
+import { Tabs, TabItem, Aside } from "@astrojs/starlight/components";
 import { YouTube } from "astro-embed";
 
-==une **instance** par maison d'édition mais plusieurs **comptes** par instance. **OK pour le vocabulaire ?**==
+<Aside title="Question">
+  une **instance** par maison d'édition mais plusieurs **comptes** par instance.
+  **OK pour le vocabulaire ?**
+</Aside>
 
 Oplibris offre la possibilité de créer des _comptes utilisateur_ pour chacun⋅e des colaborateur⋅rices de la maison d'édition. Dans la plupart des cas il s'agit de comptes d'employé⋅es mais il peut ausi s'agir de comptes d'utilisateur externe qui aurait besoin de voir plus de données que les données en rapport avec sa société (le comptable de la maison d'édition par exemple).
 
@@ -21,11 +24,14 @@ Aucun réglage préalable à faire parce que le module Utilisateurs & Groupes es
 
 Dans Réglages → Utilisateurs & Groupes → Nouvel utilisateur. Un formulaire s'ouvre :&#x20;
 
-![67f86f0b-31e9-4644-abe0-c116def7e7c2.png](../../../../assets/images/utilisateurs1.png)
+![67f86f0b-31e9-4644-abe0-c116def7e7c2.png](./images/utilisateurs1.png)
 
 ==COMMENTER TOUS LES ONGLETS==
 
-==Difficulté : pas réussi à me connecter avec Identifiant/mdp → il y a besoin d'un mail.==&#x20;
+<Aside title="Difficulté" type="danger">
+  pas réussi à me connecter avec Identifiant/mdp → il y a besoin d'un mail
+
+</Aside>
 
 <YouTube id="S5Rm9ixHNRA" />
 Doc Dolibarr : [Premiers
@@ -44,13 +50,13 @@ VIdéo complémenataire dolibarr :
 
 Pour donner les droits à un utilisateur, aller dans Réglages -> Utilisateurs & Groupes, choisissez la fiche de l'utilisateur désiré, puis cliquer sur l'onglet Permission.
 
-![67f86f0b-31e9-4644-abe0-c116def7e7c2.png](../../../../assets/images/utilisateurs2.png)
+![67f86f0b-31e9-4644-abe0-c116def7e7c2.png](./images/utilisateurs2.png)
 
 La liste des droits disponibles dépendant des modules activés, il est recommandé de configurer cette partie après avoir activé les modules désirés. Attention, il faudra penser à vérifier et redéfinir les droits utilisateurs quand vous activerez à nouveau de nouveaux modules.&#x20;
 
 Il est possible d'éviter ces étapes de configuration à faire pour chaque nouvel utilisateur en configurant les droits par défaut (comprendre droits attribués automatiquement à chaque nouvel utilisateur créé), en configurant les permissions par défaut Réglages -> Sécurité → onglet Permission par défaut :&#x20;
 
-![67f86f0b-31e9-4644-abe0-c116def7e7c2.png](../../../../assets/images/utilisateurs3.png)
+![67f86f0b-31e9-4644-abe0-c116def7e7c2.png](./images/utilisateurs3.png)
 
 ## L'utilisation de groupes
 
@@ -62,7 +68,7 @@ Une fois le groupe créé, cliquez sur l'onglet Autorisation du groupe pour attr
 
 Enfin, allez dans Liste utilisateurs dans ce groupe pour ajouter des utilisateurs à ce groupe.
 
-![67f86f0b-31e9-4644-abe0-c116def7e7c2.png](../../../../assets/images/utilisateurs4.png)
+![67f86f0b-31e9-4644-abe0-c116def7e7c2.png](./images/utilisateurs4.png)
 
 exemple d'utilisation :&#x20;
 

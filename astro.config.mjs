@@ -28,16 +28,18 @@ export default defineConfig({
           items: [
             {
               label: "Introduction",
-              link: "/prise-en-main/",
+              link: "/01-prise-en-mains/",
             },
             {
               label: "Découvrir OPlibris",
-              autogenerate: { directory: "Prise en main/Découverte" },
+              autogenerate: {
+                directory: "01-prise-en-mains/01-decouverte",
+              },
             },
             {
-              label: "Configuration",
+              label: "Configurer OPlibris",
               autogenerate: {
-                directory: "Prise en main/Installation et configuration",
+                directory: "01-prise-en-mains/02-configuration",
               },
             },
           ],
@@ -47,12 +49,12 @@ export default defineConfig({
           items: [
             {
               label: "Introduction",
-              link: "/guides-pas-à-pas/",
+              link: "/02-guides/",
             },
             {
               label: "Guides pas à pas",
               autogenerate: {
-                directory: "Guides pas à pas/Gestion quotidienne",
+                directory: "02-guides/00-utilisation",
               },
             },
           ],
