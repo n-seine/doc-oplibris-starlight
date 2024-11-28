@@ -24,7 +24,7 @@ export default defineConfig({
       },
       editLink: {
         baseUrl: "https://github.com/n-seine/doc-oplibris-starlight/edit/main",
-      }
+      },
       sidebar: [
         {
           label: "Prise en main",
