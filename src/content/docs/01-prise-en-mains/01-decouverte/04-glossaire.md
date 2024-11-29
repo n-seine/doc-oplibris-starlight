@@ -1,6 +1,6 @@
 ---
-title: Présentation de l'interface
-description: Présentation de l'interface générale d'OPlibris
+title: Glossaire
+description: Définition des termes employés dans OPlibris et sa documentation
 ---
 
 ## L'accueil d'OPlibris
