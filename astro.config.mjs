@@ -20,7 +20,7 @@ export default defineConfig({
       },
       plugins: [starlightImageZoom()],
       social: {
-        github: "https://github.com/withastro/starlight",
+        github: "https://github.com/n-seine/doc-oplibris-starlight",
       },
       editLink: {
         baseUrl: "https://github.com/n-seine/doc-oplibris-starlight/edit/main",
