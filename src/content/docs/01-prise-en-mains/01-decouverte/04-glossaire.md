@@ -1,35 +1,124 @@
 ---
 title: Glossaire
 description: Définition des termes employés dans OPlibris et sa documentation
+tableOfContents:
+  minHeadingLevel: 3
+  maxHeadingLevel: 4
+  draft: true
 ---
 
-## L'accueil d'OPlibris
+## [A](#A) - [B](#B) - [C](#C) - [D](#D) - [E](#E) - [F](#F) - [G](#G) - [H](#H) - [I](#I) - [J](#J) - [K](#K) - [L](#L) - [M](#M) - [N](#N) - [O](#O) - [P](#P) - [Q](#Q) - [R](#R) - [S](#S) - [T](#T) - [U](#U) - [V](#V) - [W](#W) - [X](#X) - [Y](#Y) - [Z](#Z)
 
-En vous connectant à OPlibris, vous arriverez `probablement : est-ce que c'est l'arrivée par défaut ? Perso j'arrive sur Mon compte... sur votre _Accueil éditeur_` sur l'une des pages générale de l'accueil d'OPlibris.
-Ces pages ont pour élément commun un menu de navigation sur la gauche de la page qui permet d'accéder à l'ensemble des fonctionnalités d'OPlibris.
+### A
 
-### Mon compte
+#### Abonnement
 
-### Accueil éditeur
+#### Accueil éditeur
 
-![Vue de l'accueil éditeur d'OPlibris](./images/interface-accueil-editeur.png)
+Page d'accueil d'OPlibris permettant d'accéder à ses différentes fonctionnalités et présentant les actualités du projet
 
-Cette page se compose de différentes sections :
+#### Article
 
-- A droite, un menu de navigation général qui permet d'accéder aux autres
+#### Autre produit
 
-  ### Toutes mes fonctionnalités
+### B
 
-  #### Anticiper
+#### Bon de commande
 
-  #### Gérer
+### C
 
-  #### Promouvoir
+#### Catalogue
 
-## L'interface de base de Dolibarr
+#### Client
 
-### La barre de navigation
+#### Contrat
 
-## L'interface du module OPlibris
+#### Contributeur
 
-### Le menu de navigation OPlibris
+#### CRM
+
+Outil informatique de gestion de la relation avec les clients : contact, promotion, vente, facturation
+
+### D
+
+#### Dolibarr
+
+ERP opensource sur lequel est basé OPlibris
+
+### E
+
+#### EDI
+
+Echange de Données Informatisées, entre OPlibris et différents acteurs extérieurs (Dilicom, clients)
+
+#### Éditeur
+
+#### Entrepôt
+
+#### ERP
+
+Outil de gestion d'une entreprise, de la production à la vente. OPlibris est un ERP
+
+#### Étiquette
+
+Voir [Tag](#Tag)
+
+#### Expédition
+
+### F
+
+#### Facture
+
+### G
+
+### H
+
+### I
+
+#### Instance
+
+### J
+
+### K
+
+### L
+
+### M
+
+#### Module
+
+Ensemble de fonctionnalités constituant un "morceau" de Dolibarr (module point de vente, module facturation, etc.) OPlibris est un module de Dolibarr
+
+### N
+
+### O
+
+### P
+
+#### Prestation
+
+### Q
+
+### R
+
+### S
+
+#### Série
+
+### T
+
+#### Tag
+
+#### Tiers
+
+### U
+
+### V
+
+### W
+
+### X
+
+### Y
+
+### Z
