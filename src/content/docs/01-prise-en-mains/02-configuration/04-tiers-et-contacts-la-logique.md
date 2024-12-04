@@ -1,3 +1,9 @@
+---
+title: 'Tiers et contacts : la logique'
+description: Comment se servir des modules Tiers et Contacts
+sidebar: { order: 4 }
+---
+
 ## Introduction
 
 On appelle Tiers les partenaires avec lesquels la maison travaille.
