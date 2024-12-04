@@ -18,7 +18,7 @@ On peut créer plusieurs Contacts pour un même Tiers.&#x20;
 
 Dans l'exemple ci-dessous, on a associé deux contacts (le directeur et le commercial) à un Tiers/Fournisseur (une imprimerie)
 
-![c26cdd27-a3f3-4cc2-bb0f-a28df0dd29b3.png](https://files.nuclino.com/files/8e1534aa-8623-457c-909d-6e5eea0a2e5e/c26cdd27-a3f3-4cc2-bb0f-a28df0dd29b3.png)
+![tiers-et-contacts1.png](./images/tiers-et-contacts1.png)
 
 2/ Dans le menu du haut, cliquez sur **Tiers** →  **Nouveau Contact/Adresse**.
 
